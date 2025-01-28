@@ -4,8 +4,8 @@ config();
 module.exports = {
   db: {
     connectionString: process.env.POSTGRES_URL,
-    ssl: {
+    ssl: process.env.NODE_ENV === 'production' ? {
       rejectUnauthorized: true
-    }
+    } : false
   }
 };

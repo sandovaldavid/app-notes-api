@@ -10,7 +10,9 @@ A RESTful API for managing notes built with Node.js, Express, and PostgreSQL.
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/sandovaldavid/app-notes-api.git
+
+cd app-notes-api
 
 # Start with Docker
 docker-compose up --build

@@ -28,10 +28,8 @@ DB_PASSWORD=postgres
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=db_webnotes
-PORT=3000
 # or
-POSTGRES_URL=postgres://neondb_owner:
-PORT=4000
+POSTGRES_URL=postgresql://postgres:postgres@localhost:5432/db_webnotes
 ```
 
 ## 🔌 API Endpoints

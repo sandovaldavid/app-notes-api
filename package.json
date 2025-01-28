@@ -1,7 +1,11 @@
 {
   "name": "app-notes-dev",
   "version": "1.0.0",
-  "main": "index.js",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
+  "main": "/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
